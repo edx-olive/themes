@@ -100,6 +100,10 @@ a{
 .btn-block{
   width: 100% !important;
 }
+.bookmark-button:hover {
+  color: #0071bb !important;
+  border-color: transparent !important;
+}
 .inner-container{
   padding: 0 1.25rem;
 }
@@ -322,7 +326,7 @@ h1, h2, h3, h4, h5, h6{
 //Header
 header.header-main {
   min-height: 100px;
-  .navbar-collapse{
+  .nav-collapse{
     .collapsed-button{
       position: absolute;
       right: 20px;
@@ -1285,6 +1289,33 @@ header.header-main {
   }
 }
 
+// Instructor Dashboard
+
+.slick-header-columns {
+  right: 0;
+  left: inherit;
+}
+
+.slick-header-column.ui-state-default{
+  height: 25px;
+  padding: 5px;
+}
+
+.instructor-dashboard-content-2 .profile-data-display-table .slickgrid .slick-cell {
+  height: 35px;
+  padding: 10px 5px 10px 5px;
+  border: none;
+  border-bottom: 1px dotted silver;
+  border-left: 1px dotted silver;
+  &.l12.r12{
+    border-right: 1px dotted silver;
+  }
+}
+
+.instructor-dashboard-content-2 .content-history-table-inner .slickgrid .slick-cell {
+  height: 50px;
+}
+
 //Media Queries
 
 @media screen and (min-width: 30em){
@@ -1345,7 +1376,7 @@ header.header-main {
     .collapsed-button{
       display: none;
     }
-    .navbar-collapse{
+    .nav-collapse{
       ul{
         display: block;
         transition: all .2s;
@@ -1528,7 +1559,7 @@ header.header-main {
 
 @media screen and (min-width: 64em){ /* 980px */
   header.header-main {
-    .navbar-collapse {
+    .nav-collapse {
       ul {
         li {
           padding: 0 0.9rem;
@@ -1563,7 +1594,7 @@ header.header-main {
       .list-inline li{
         float: left;
       }
-      .navbar-collapse .collapsed-button{
+      .nav-collapse .collapsed-button{
         left: 20px;
         right: auto;
       }
@@ -1590,5 +1621,40 @@ header.header-main {
   }
   .course-index .accordion .course-navigation .button-chapter .group-heading {
     padding: 15px 40px 15px 20px;
+  }
+  .ui-state-default.slick-header-column {
+    float: right !important;
+    left: inherit !important;
+    width: 84px !important;
+    height: 25px;
+    padding: 5px;
+  }
+  .grid-canvas {
+    width: 1097px !important;
+  }
+  .instructor-dashboard-content-2 .slickgrid .slick-cell {
+    float: right;
+    right: 0;
+    left: inherit;
+    position: relative !important;
+    width: 84px;
+
+    &.l0.r0 {
+      border-right: 1px dotted silver;
+    }
+    &.l12.r12{
+      border-right: 0;
+    }
+  }
+  .slick-header-columns {
+    right: 0 !important;
+    left: inherit !important;
+    width: 1097px !important;
+  }
+  .content-history-table-inner .ui-state-default.slick-header-column {
+    width: 219px !important;
+  }
+  .instructor-dashboard-content-2 .content-history-table-inner .slickgrid .slick-cell {
+    width: 219px;
   }
 }

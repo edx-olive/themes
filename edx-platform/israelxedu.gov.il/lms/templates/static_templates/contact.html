@@ -13,22 +13,145 @@ from django.conf import settings
 <div class="page-heading">
   <h1>${_("Contact Us")}</h1>
 </div>
+
 <section class="static-content">
   <div class="grid-manual grid-container">
     <div class="inner-container">
       <div class="row">
-        <div class="col col-12 col-centered">
-          <p class="en">If you have any questions or need support from our team, please <a href="mailto:support@campus.gov.il?Subject=Support Request" class="brand-link">contact us</a>.</p>
-          <p class="he">אם יש לכם שאלות, או זקוקים לתמיכה בכל נושא מהצוות שלנו, אל תהססו <a href="mailto:support@campus.gov.il?Subject=בקשת תמיכה" class="brand-link">לפנות אלינו</a></p>
-          <p class="ar">إذا كان لديك أي أسئلة أو بحاجة إلى دعم من فريق العمل لدينا، يرجى  <a href="mailto:support@campus.gov.il?Subject=طلب دعم" class="brand-link">الاتصال بنا</a></p>
+        <div class="col col-12 sm-col-10 md-col-8 lg-col-6 xl-col-6 col-centered">
+          <form id="contact_form" class="form-block">
+            <div class="input-group">
+              <label for="">${_("Email")}*</label>
+              <input type="text" class="input-lg" id="email">
+            </div>
+            <div class="input-group">
+              <label for="">${_("Full Name")}*</label>
+              <input type="text" class="input-lg" id="name">
+            </div>
+            <div class="input-group">
+              <label for="">${_("Inquiry Type")}*</label>
+              <div class="custom-select">
+                <select id="subject" class="input-lg">
+                  <option value="">
+                      ## Translators: It is texts for inquiry type selection
+                      ${_("Select")}
+                  </option>
+                  <option value="payments">${_("Payments")}</option>
+                  <option value="certificates">${_("Certificates")}</option>
+                  <option value="assessments">${_("Assessments")}</option>
+                  <option value="videos">${_("Videos")}</option>
+                  <option value="discussion-forums">${_("Discussion Forums")}</option>
+                  <option value="mobile-application">${_("Mobile Application")}</option>
+                  <option value="other">${_("Other")}</option>
+                </select>
+              </div>
+            </div>
+            <div class="input-group">
+              ## Translators: text is used here as a label for message
+              <label for="">${_("Message")}*</label>
+              <textarea id="details" rows="10"></textarea>
+            </div>
+            <input type="text" name="issue_type" id="issue_type" value="contact" class="hidden">
+            <button class="btn-brand btn-client btn-lg" id="submit_btn">${_("Submit")}</button>
+            <div class="input-group">
+              <label for="" class="text-light">* ${_("Required Fields")}</label>
+            </div>
+          </form>
         </div>
       </div>
     </div>
   </div>
 </section>
 
+<a href="#success-message" class="media hidden" id="success-message-btn" rel="leanModal">
+</a>
+<div id="success-message" class="modal">
+
+    <div class="alert alert-success" role="alert" aria-labelledby="alert-title-success" tabindex="-1">
+        <span class="icon alert-icon icon-check" aria-hidden="true">
+          <i class="fa fa-check" aria-hidden="true"></i>
+        </span>
+
+        <div class="alert-message">
+          <h3 class="alert-title" id="alert-title-success">
+              ${_("Thank you for your inquiry")}
+          </h3>
+          <p class="alert-copy-with-title">
+              We'll get back to you within 24 hours.
+          </p>
+        </div>
+    </div>
+</div>
+
+
 <%block name="js_extra">
-  <script type="text/javascript">
-      $(".${LANGUAGE_CODE}").css('display', 'block');
-  </script>
+<script type="text/javascript">
+
+  var errorMessages = {
+    "name": "Please provide your name.",
+    "email": "Please provide a valid e-mail.",
+    "details": "Please provide message.",
+    "subject": "Please provide an inquiry type."
+  }
+
+  function submitForm(data) {
+    $.post("/submit_feedback", data, function (data, status) {
+      $("#success-message-btn").click();
+      setTimeout( function(){
+        $("#lean_overlay").trigger("click");
+        $('#contact_form').trigger("reset");
+      }  , 2000 );
+    }).fail(function (xhr, status, error) {
+      responseData = jQuery.parseJSON(xhr.responseText);
+      addErrorDiv(responseData.field);
+    });
+  }
+
+  function addErrorDiv(id) {
+    var error_div = "<div class='has-error field-message'><span class='field-message-content'>" + errorMessages[id] + "</span></div>";
+    $("#" + id).addClass("has-error");
+    $("#" + id).parent().append(error_div);
+  }
+
+  function removeErrorDiv(id) {
+    $("#" + id).removeClass("has-error");
+    $($("#" + id).next()).remove();
+  }
+
+  function validateForm() {
+    var optional_fields = ["user_type"];      //Optional fields array
+
+    var form_values = $("#contact_form").find(":input"), i = 0, data = new Object(),
+      response = {"is_form_validate": true, data: ""};
+
+    for (i = 0; i < form_values.length - 2; i++) {
+      var value = $(form_values[i]).val(), id = $(form_values[i]).attr("id");
+      removeErrorDiv(id);
+
+      if (value && value !== "") {
+        data[id] = value;
+      } else {
+        if ($.inArray(id, optional_fields) == -1) {
+          response.is_form_validate = false;
+          addErrorDiv(id);
+        }
+      }
+
+    }
+    response.data = data;
+    return response;
+  }
+
+  $(function () {
+    $("#submit_btn").click(function (e) {
+      e.preventDefault();
+      var validate_form = validateForm();
+      if (validate_form.is_form_validate) {
+        submitForm(validate_form.data);
+      }
+    });
+
+  });
+</script>
+
 </%block>
