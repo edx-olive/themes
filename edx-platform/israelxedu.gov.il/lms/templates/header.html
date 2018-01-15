@@ -6,7 +6,25 @@ from django.utils.translation import ugettext as _
 from django.core.urlresolvers import reverse
 from openedx.core.djangoapps.lang_pref.api import header_language_selector_is_enabled, released_languages
 from openedx.core.djangoapps.user_api.accounts.image_helpers import get_profile_image_urls_for_user
+from openedx.core.djangoapps.site_configuration import helpers as configuration_helpers
 %>
+
+% if configuration_helpers.get_value('ENABLE_UNSUPPORTED_BROWSER_ALERT', settings.FEATURES.get('ENABLE_UNSUPPORTED_BROWSER_ALERT', True)):
+  <script>
+  var $buoop = {notify:${configuration_helpers.get_value('UNSUPPORTED_BROWSER_ALERT_VERSIONS', settings.FEATURES.get('UNSUPPORTED_BROWSER_ALERT_VERSIONS', "{i:-3,f:-3,o:-3,s:-3,c:-3}"))|h},
+    insecure:true,
+    api:5,
+    l:"${LANGUAGE_CODE}",
+    reminder:0};
+  function $buo_f(){
+   var e = document.createElement("script");
+   e.src = "//browser-update.org/update.min.js";
+   document.body.appendChild(e);
+  };
+  try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
+  catch(e){window.attachEvent("onload", $buo_f)}
+  </script>
+% endif
 
 
 <header id="global-navigation" class="header-main" >
