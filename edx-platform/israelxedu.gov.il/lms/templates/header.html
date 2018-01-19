@@ -11,8 +11,7 @@ from openedx.core.djangoapps.site_configuration import helpers as configuration_
 
 % if configuration_helpers.get_value('ENABLE_UNSUPPORTED_BROWSER_ALERT', settings.FEATURES.get('ENABLE_UNSUPPORTED_BROWSER_ALERT', True)):
   <script>
-  var $buoop = {notify:${configuration_helpers.get_value('UNSUPPORTED_BROWSER_ALERT_VERSIONS', settings.FEATURES.get('UNSUPPORTED_BROWSER_ALERT_VERSIONS', "{i:-10,f:-3,o:-3,s:-3,c:-3}"))|h},
-    insecure:true,
+  var $buoop = {notify:${configuration_helpers.get_value('UNSUPPORTED_BROWSER_ALERT_VERSIONS', settings.FEATURES.get('UNSUPPORTED_BROWSER_ALERT_VERSIONS', "{i:10,f:-3,o:-3,s:-3,c:-3}"))|h},
     api:5,
     reminder:0};
   function $buo_f(){
