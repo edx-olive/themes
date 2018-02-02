@@ -2394,6 +2394,11 @@ h1, h2, h3, h4, h5, h6{
  }
 
 //Media Queries
+@media screen {
+  #help-modal {
+    min-width: 70%;
+  }
+}
 
 @media screen and (min-width: 30em){
   .hero{
@@ -2644,6 +2649,10 @@ h1, h2, h3, h4, h5, h6{
         }
       }
     }
+  }
+  #help-modal {
+    max-width: 750px;
+    min-width: auto;
   }
 }
 
