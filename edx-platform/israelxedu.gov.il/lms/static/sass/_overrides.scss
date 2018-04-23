@@ -2044,6 +2044,18 @@ header.header-main {
     }
 }
 
+.login-register .login-provider.button-saml-moe-edu-idm {
+    text-align: center;
+
+    .ltr & {
+        padding-left: 30px;
+    }
+
+    .rtl & {
+        padding-right: 30px;
+    }
+}
+
 /* Custom SCSS */
 h1, h2, h3, h4, h5, h6{
     font-family: $sans-serif;
