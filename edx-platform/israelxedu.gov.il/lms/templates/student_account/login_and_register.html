@@ -22,18 +22,31 @@
             newrelic.addPageAction('xfinished');
         }
     </%static:require_module>
+    <script src="${static.url('js/typeahead.bundle.min.js')}"></script>
+    <script src="${static.url('js/typeahead.city.js')}"></script>
 </%block>
 
 <%block name="header_extras">
     % for template_name in ["account", "access", "form_field", "login", "register", "institution_login", "institution_register", "password_reset", "hinted_login"]:
         <script type="text/template" id="${template_name}-tpl">
             <%static:include path="student_account/${template_name}.underscore" />
+             % if template_name in ["register", "login"]:
+                   <script src="${static.url('js/login_register.js')}"></script>
+              % endif
         </script>
     % endfor
 </%block>
 <div class="section-bkg-wrapper">
     <main id="main" aria-label="Content" tabindex="-1">
+
         <div id="content-container" class="login-register-content">
+            <div class="container-color" >
+                <%block name="border_color_form">
+                    % for x in range(1,6):
+                       <div class="color-border-${x}"></div>
+                    % endfor
+                </%block>
+            </div>
             % if enable_enterprise_sidebar:
                 <%include file="enterprise_sidebar.html" />
                 <%

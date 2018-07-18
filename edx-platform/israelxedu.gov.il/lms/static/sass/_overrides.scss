@@ -2848,3 +2848,202 @@ h1, h2, h3, h4, h5, h6{
     right: 0.72rem;
   }
 }
+
+//Custom login and register
+div.section-bkg-wrapper {
+  background: #f7f7f7;
+  main#main {
+    h1 {
+      font-size: 2rem;
+      margin:0;
+    }
+    div.toggle-form{
+      a {
+        color: #78CCD6;
+      }
+    }
+
+  }
+}
+
+div#register-form {
+    h2 {
+    color: #78CCD6;
+  }
+}
+
+.login-register .form-field input, .financial-assistance-wrapper .financial-assistance-form .form-field input, .login-register .form-field select, .financial-assistance-wrapper .financial-assistance-form .form-field select, .login-register .form-field textarea, .financial-assistance-wrapper .financial-assistance-form .form-field textarea {
+    display: block;
+    height: 32px;
+    width: 100%;
+    margin: 0 0 5px;
+    padding: 0 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+select:focus, select:active, textarea:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type="tel"]:focus {
+    border: solid 2px #00e7ff;
+    box-shadow: initial;
+}
+
+.login-register .form-field select:active, .financial-assistance-wrapper .financial-assistance-form .form-field select:active, .login-register .form-field select:focus, .financial-assistance-wrapper .financial-assistance-form .form-field select:focus {
+  outline:0;
+  border-color: #00e7ff;
+}
+
+
+login-register-content h2, .login-register-content .home>header .title>.heading-group p, .home>header .title>.heading-group .login-register-content p, .login-register-content section.outside-app h1, section.outside-app .login-register-content h1 {
+    margin-top: 20px;
+    letter-spacing: normal;
+    font-family: "Open Sans",Verdana,Geneva,sans-serif,sans-serif;
+    color: #00e7ff;
+    text-align: center;
+}
+
+
+.login-register .form-field select, .financial-assistance-wrapper .financial-assistance-form .form-field select {
+    background: transparent;
+    opacity: 0.85;
+    border: 1px solid darkgrey;
+    outline:0;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+
+.login-register, .financial-assistance-wrapper .financial-assistance-form {
+    background: #FDFDFD;
+    min-height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    max-width: 500px;
+}
+
+
+.login-register-content {
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+    background: #FDFDFD;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+}
+
+
+.login-register-content h2, .login-register-content .home > header .title > .heading-group p, .home > header .title > .heading-group .login-register-content p, .login-register-content section.outside-app h1, section.outside-app .login-register-content h1 {
+    text-align: center;
+}
+
+div.section-bkg-wrapper {
+  text-align:center;
+}
+
+div#content-container {
+  position:relative;
+}
+
+#main {
+  padding:20px;
+}
+
+
+div.color-border-1 {
+  border: 4px solid #8FC654;
+  width: 8%;
+  float: left;
+}
+
+div.color-border-2 {
+  border: 4px solid #F9CA62;
+  width: 30%;
+  float: left;
+}
+
+div.color-border-3 {
+  border: 4px solid #2E2E2E;
+  width: 24%;
+  float: left;
+}
+
+div.color-border-4 {
+  border: 4px solid #F46565;
+  width: 30%;
+  float: left;
+}
+
+div.color-border-5 {
+  border: 4px solid #6EC7D3;
+  width: 8%;
+  float: left;
+}
+
+div.container-color{
+  width: 100%;
+}
+
+
+div.triangle-input {
+  border-left: solid 10px transparent;
+  border-right: solid 10px transparent;
+  border-bottom: solid 10px #6EC7D3;
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 48px;
+  @include margin-left(48%);
+  display:none
+}
+
+.tt-suggestion.tt-selectable {
+  margin: 10px;
+}
+
+.tt-menu {
+  width: 100%;
+  top: 35px!important;
+  padding: 2px;
+  background-color: #fff;
+}
+
+div.form-field {
+  span.tip.tip-input {
+    background: #6EC7D3;
+    border-radius: 6px;
+    padding: 2px;
+    border: 1px solid #6EC7D3;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 2px darkgrey;
+    display:none;
+  }
+}
+
+div.form-field:focus-within {
+  span.tip.tip-input, div.triangle-input {
+    display:block;
+  }
+}
+
+.login-register .action-primary, .financial-assistance-wrapper
+.financial-assistance-form .action-primary {
+  padding: 15px 20px;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+#register-city:disabled {
+    background-color: #aaa !important;
+}
+
+#register-goals {
+    height: 80px;
+}

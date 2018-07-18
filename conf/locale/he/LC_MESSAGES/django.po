@@ -3,478 +3,600 @@
 # qualityalltext <quality@alltext.co.il>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: 2016-09-01 10:46+0500\n"
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-05-23 07:55+0000\n"
 "PO-Revision-Date: 2016-09-01 10:48+0500\n"
 "Last-Translator: qualityalltext <quality@alltext.co.il>, 2016\n"
-"Language-Team: Hebrew (https://www.transifex.com/open-edx/teams/6205/he/)\n"
+"Language-Team: Hebrew (https://www.transifex.com/open-edx/teams/6205/he/)"
+"\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: he\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.7\n"
+"Generated-By: Babel 1.3\n"
 
-msgid "Academic Planning"
-msgstr "תכנון אקדמי"
-
-msgid "Registration"
-msgstr "רישום"
-
-msgid "Finances"
-msgstr "כספים"
-
-msgid "Collaboration Policy"
-msgstr "מדיניות שיתוף פעולה"
-
-msgid "Honor Code Pledge"
-msgstr "קוד אתי ליושרה אקדמית"
-
-msgid "Changing the Honor Code"
-msgstr "שינוי הקוד האתי"
-
-msgid "usernames and postings"
-msgstr "שמות משתמשים ופרסומים"
-
-msgid "consent to processing outside home country"
-msgstr "הסכמה לעיבוד מחוץ למדינת המגורים"
-
-msgid "personal information"
-msgstr "מידע אישי"
-
-msgid "information we collect and how we use it"
-msgstr "מידע שאנו אוספים וכיצד אנו משתמשים בו"
-
-msgid "use and disclosure to third parties"
-msgstr "שימוש וחשיפה לצדדים שלישיים"
-
-msgid "use for personalization and pedagogical improvementsy"
-msgstr "שימוש להתאמה אישית ושיפורים פדגוגיים"
-
-msgid "links to other websites"
-msgstr "קישורים לאתרי אינטרנט אחרים"
-
-msgid "security"
-msgstr "אבטחה"
-
-msgid "changing our privacy policy"
-msgstr "שינוי מדיניות הפרטיות שלנו"
-
-msgid "minors"
-msgstr "קטינים"
-
-msgid "privacy concerns"
-msgstr "חששות בנוגע לפרטיות"
-
-msgid "rules for online conduct"
-msgstr "כללים בנוגע להתנהגות מקוונת"
-
-msgid "prohibited content"
-msgstr "תוכן אסור"
-
-msgid "user accounts and authority"
-msgstr "חשבונות וסמכות המשתמש"
-
-msgid "your right to use content on the site"
-msgstr "הזכות שלך להשתמש בתוכן שבאתר"
-
-msgid "user postings"
-msgstr "פרסומי המשתמש"
-
-msgid "certificates of completion"
-msgstr "תעודות השלמה"
-
-msgid "trademarks"
-msgstr "סימני מסחר"
-
-msgid "digital millennium copyright act"
-msgstr "חוק זכויות היוצרים של המילניום הדיגיטלי"
-
-msgid "indemnification"
+#: edx-platform/israelxedu.gov.il/lms/templates/about_site.html:18
+#, fuzzy
+msgid "Academic Education"
 msgstr "שיפוי"
 
-msgid "miscellaneous"
-msgstr "שונות"
+#: edx-platform/israelxedu.gov.il/lms/templates/about_site.html:26
+msgid "High School Education"
+msgstr ""
 
-msgid "the following types of content are strictly prohibited on the site:"
-msgstr "חל איסור מוחלט לפרסם את סוגי התוכן הבאים באתר:"
+#: edx-platform/israelxedu.gov.il/lms/templates/about_site.html:34
+msgid "Employment"
+msgstr ""
 
+#: edx-platform/israelxedu.gov.il/lms/templates/about_site.html:42
+msgid "Government Courses"
+msgstr ""
+
+#: edx-platform/israelxedu.gov.il/lms/templates/about_site.html:52
 msgid "More about this site"
 msgstr "מידע נוסף אודות אתר זה"
 
-msgid "View All"
-msgstr "הצג הכל"
-
-#: lms/templates/footer.html
-msgid "More about"
-msgstr "מידע נוסף"
-
-#: lms/templates/index.html
-msgid "Watch video"
-msgstr "צפה בסרטון ווידאו"
-
-#: lms/templates/courseware/courses.html
-msgid "All Courses"
-msgstr "כל הקורסים"
-
-msgid "Credentials"
-msgstr "הרשאות"
-
-msgid "Report unethical or harassing conduct"
-msgstr "דווח על התנהגות לא אתית או מטרידה"
-
-msgid "Questions about accessibility for students with disabilities"
-msgstr "שאלות בנוגע לנגישות הסטודנטים בעלי המוגבלויות"
-
-msgid "Links to Other Sites"
-msgstr "קישורים לאתרים אחרים"
-
-msgid "Governing Law and Disputes"
-msgstr "החוק החל וערעורים"
-
-#: lms/templates/courseware/course_about.html
-msgid "An error occurred. Please try again later."
-msgstr "אירעה שגיאה. נסה שוב מאוחר יותר."
-
-#: lms/templates/courseware/courses.html
-msgid "Explore our most popular courses"
-msgstr "גלה את הקורסים הפופולריים ביותר שלנו"
-
-msgid "Mobile Application"
-msgstr "אפליקציה לנייד"
-
-msgid "FAQ's"
-msgstr "שאלות נפוצות"
-
-msgid "General FAQs"
-msgstr "שאלות נפוצות כלליות"
-
-#: lms/templates/footer.html
-msgid "About this Site"
-msgstr "אודות אתר זה"
-
-#: lms/templates/courseware/course_about.html
-msgid "Start Date"
-msgstr "תאריך התחלה"
-
-#: lms/templates/courseware/course_about.html
-msgid "Duration"
-msgstr "משך"
-
-#: lms/templates/courseware/course_about.html
-msgid "Price"
-msgstr "מחיר"
-
-#: lms/templates/courseware/course_about.html
-msgid "Course Description"
-msgstr "תיאור הקורס"
-
-#: lms/templates/courseware/course_about.html
-msgid "What You Will Learn"
-msgstr "מה שתלמד"
-
-#: lms/templates/courseware/course_about.html
-msgid "Want to purchase this course for a group?"
-msgstr "האם ברצונך לרכוש קורס זה עבור קבוצה?"
-
-#: lms/templates/courseware/course_about.html
-msgid ""
-"You can purchase enrollment codes for this course to distribute to your team"
-msgstr "באפשרותך לרכוש קודי רישום עבור קורס זה כדי להפיץ לצוות שלך"
-
-#: lms/templates/courseware/course_about.html
-msgid "Instructors"
-msgstr "מנחים"
-
-#: lms/templates/courseware/course_about.html
-msgid "Enroll"
-msgstr "הירשם"
-
-msgid "Enroll Now"
-msgstr "הרשם עכשיו"
-
-msgid "Enrollment is Closed"
-msgstr "ההרשמה סגורה"
-
-msgid "Go to Course"
-msgstr "מעבר לקורס"
-
-#: lms/templates/courseware/courses.html lms/templates/courseware/header.html
-msgid "Courses"
-msgstr "קורסים"
-
-msgid "Blogs"
-msgstr "בלוגים"
-
-msgid "Contact Us"
-msgstr "צור איתנו קשר"
-
-msgid "Email"
-msgstr "דואר אלקטרוני"
-
-msgid "Full Name"
-msgstr "שם מלא"
-
-msgid "I am a"
-msgstr "אני"
-
-msgid "Select"
-msgstr "בחר"
-
-msgid "Learner"
-msgstr "לומד"
-
-msgid "Teacher"
-msgstr "אחר"
-
-msgid "Other"
-msgstr "אחר"
-
-msgid "Inquiry Type"
-msgstr "סוג שאילתה"
-
-msgid "Payments"
-msgstr "תשלומים"
-
-msgid "Certificates"
-msgstr "תעודות"
-
-msgid "Assessments"
-msgstr "הערכות"
-
-msgid "Videos"
-msgstr "סרטונים"
-
-msgid "Discussion Forums"
-msgstr "פורומים לדיון"
-
-msgid "Message"
-msgstr "הודעה"
-
-msgid "Submit"
-msgstr "שלח"
-
-msgid "Required Fields"
-msgstr "שדות חובה"
-
-msgid "Thank you for your inquiry"
-msgstr "תודה על שאלתך"
-
-msgid "We'll get back to you within 24 hours."
-msgstr "נחזור אליך ב-24 השעות הקרובות."
-
-msgid "License"
-msgstr "רישיון"
-
-msgid "Ownership"
-msgstr "בעלות"
-
-msgid "Subscription Term"
-msgstr "מונח בנושא הרשמה"
-
-msgid "Permitted Uses and Prohibitions"
-msgstr "שימושים מותרים ואיסורים"
-
-msgid "Restriction Against Transfer"
-msgstr "הגבלה כנגד העברה"
-
-msgid "Use Of Professional Judgment"
-msgstr "שימוש בשיפוט מקצועי"
-
-msgid "No Warranty"
-msgstr "ללא אחריות"
-
-msgid "Limitation Of Liability"
-msgstr "הגבלת חבות"
-
-msgid "General"
-msgstr "כללי"
-
-msgid "Back to top"
-msgstr "חזרה למעלה"
-
-msgid "Privacy Statement"
-msgstr "הצהרת פרטיות"
-
-msgid "General Statement"
-msgstr "הצהרה כללית"
-
-msgid "Personal Information Collected and Use of Information"
-msgstr "מידע אישי שנאסף ושימוש במידע"
-
-msgid "Usage Information Collected and Use of Information"
-msgstr "פרטי שימוש שנאספו ושימוש במידע"
-
-msgid "External Links"
-msgstr "קישורים חיצוניים"
-
-msgid "Security Precautions"
-msgstr "אזהרות אבטחה"
-
-msgid "Access to the Site"
-msgstr "גישה לאתר"
-
-msgid "User Accounts"
-msgstr "חשבונות משתמש"
-
-msgid "Course Modification or Cancellation"
-msgstr "שינוי או ביטול קורס"
-
-msgid "License to use Site Materials"
-msgstr "רישיון לשימוש בחומרים באתר"
-
-msgid "Modifications to Site"
-msgstr "שינויים באתר"
-
-msgid "Rules for Online Conduct"
-msgstr "כללים להתנהגות מקוונת"
-
-msgid "Security Rules"
-msgstr "כללי אבטחה"
-
-msgid "Content Disclaimer"
-msgstr "כתב ויתור על תוכן"
-
-msgid "User Status and Statement of Accomplishment"
-msgstr "סטטוס המשתמש והצהרת הישגים"
-
-msgid "International Use and Consent to Processing"
-msgstr "שימוש בינלאומי והסכמה לעיבוד"
-
-msgid "Disclaimer of Warranties"
-msgstr "כתב ויתור על אחריות"
-
-msgid "Termination of Rights"
-msgstr "הפסקת זכויות"
-
-msgid "Consumer Notice"
-msgstr "הודעת צרכן"
-
-msgid "Use of Name"
-msgstr "שימוש בשם"
-
-msgid "Copyright Complaints"
-msgstr "תלונות בנוגע לזכויות יוצרים"
-
-msgid "Notices"
-msgstr "הודעות"
-
-msgid "Waiver"
-msgstr "כתב ויתור"
-
-msgid "Severability"
-msgstr "דרגת חומרה"
-
-msgid "Use Of The Site"
-msgstr "שימוש באתר"
-
-msgid "User Age and Eligibility"
-msgstr "הגיל והכשירות של המשתמש"
-
-msgid "Indemnification"
-msgstr "שיפוי"
-
-msgid "Entire Agreement"
-msgstr "ההסכם כולו"
-
-#: lms/templates/student_account/login_and_register.html
-msgid "Sign in or Create Account"
-msgstr "היכנס או צור חשבון"
-
-#: lms/templates/course.html
+#: edx-platform/israelxedu.gov.il/lms/templates/course.html:13
+#: edx-platform/israelxedu.gov.il/lms/templates/program.html:13
 msgid "LEARN MORE"
 msgstr "למד עוד"
 
-#: lms/templates/course.html
+#: edx-platform/israelxedu.gov.il/lms/templates/course.html:39
 msgid "Starts"
 msgstr "מתחיל"
 
-#: lms/templates/courses_list.html
-msgid "Explore our courses"
-msgstr "גלה את הקורסים שלנו"
-
 #. Translators: This message is used as a label for a list of links that
 #. navigate to about pages on the website.
-#: lms/templates/footer.html
+#: edx-platform/israelxedu.gov.il/lms/templates/footer.html:20
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/about.html:7
 msgid "About"
 msgstr "אודות"
 
-#: lms/templates/footer.html
-msgid "Education"
-msgstr "חינוך"
+#: edx-platform/israelxedu.gov.il/lms/templates/footer.html:22
+msgid "About this Site"
+msgstr "אודות אתר זה"
 
-#: lms/templates/footer.html
-msgid "Research"
-msgstr "מחקר"
+#: edx-platform/israelxedu.gov.il/lms/templates/footer.html:23
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/contact.html:11
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/contact.html:14
+msgid "Contact Us"
+msgstr "צור איתנו קשר"
 
 #. Translators: This message is used as a label for a list of links that
 #. navigate to support pages on the website.
-#: lms/templates/footer.html
+#: edx-platform/israelxedu.gov.il/lms/templates/footer.html:30
 msgid "Support"
 msgstr "תמיכה"
 
-#. Translators: This message is used as a label for a list of links that
-#. navigate to connect pages on the website.
-#: lms/templates/footer.html
-msgid "Connect"
-msgstr "התחבר"
+#: edx-platform/israelxedu.gov.il/lms/templates/footer.html:32
+msgid "Terms of Service"
+msgstr ""
 
-#: lms/templates/footer.html
-msgid "Facebook"
-msgstr "פייסבוק"
-
-#: lms/templates/footer.html
-msgid "Instagram"
-msgstr "אינסטגרם"
-
-#: lms/templates/footer.html
-msgid "LinkedIn"
-msgstr "לינקדאין"
-
-#: lms/templates/footer.html
-msgid "Twitter"
-msgstr "טוויטר"
-
-#: lms/templates/header.html
+#: edx-platform/israelxedu.gov.il/lms/templates/header.html:29
 msgid "Global"
 msgstr "גלובלי"
 
-#: lms/templates/header.html
+#: edx-platform/israelxedu.gov.il/lms/templates/header.html:54
+#: edx-platform/israelxedu.gov.il/lms/templates/learner_dashboard/_dashboard_navigation_courses.html:9
+#: edx-platform/israelxedu.gov.il/lms/templates/learner_dashboard/_dashboard_navigation_programs.html:8
 msgid "Dashboard"
 msgstr "לוח בקרה"
 
-#: lms/templates/header.html
+#: edx-platform/israelxedu.gov.il/lms/templates/header.html:55
 msgid "Profile"
 msgstr "פרופיל"
 
-#: lms/templates/header.html
+#: edx-platform/israelxedu.gov.il/lms/templates/header.html:56
 msgid "Account"
 msgstr "חשבון"
 
-#: lms/templates/header.html
+#: edx-platform/israelxedu.gov.il/lms/templates/header.html:57
 msgid "Sign Out"
 msgstr "יציאה"
 
-#: lms/templates/header.html
+#: edx-platform/israelxedu.gov.il/lms/templates/header.html:62
 msgid "Create Account"
 msgstr "צור חשבון"
 
-#: lms/templates/header.html
-msgid "Sign in"
+#: edx-platform/israelxedu.gov.il/lms/templates/header.html:65
+#, fuzzy
+msgid "Sign In"
 msgstr "כניסה"
 
-#: lms/templates/header.html
+#: edx-platform/israelxedu.gov.il/lms/templates/header.html:79
 msgid "Choose Language"
 msgstr "בחר שפה"
 
-#: lms/templates/header.html
+#: edx-platform/israelxedu.gov.il/lms/templates/header.html:99
+msgid "Courses"
+msgstr "קורסים"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/header.html:102
 msgid "About Us"
 msgstr "אודותינו"
 
-#: lms/templates/header.html
-msgid "News"
-msgstr "חדשות"
+#: edx-platform/israelxedu.gov.il/lms/templates/program.html:36
+msgid "Logo Image"
+msgstr ""
 
-#: lms/templates/footer.html
-msgid "YouTube"
-msgstr "יוטיוב"
+#: edx-platform/israelxedu.gov.il/lms/templates/courseware/_bulk_purchase_button.html:16
+msgid "Want to purchase this course for a group?"
+msgstr "האם ברצונך לרכוש קורס זה עבור קבוצה?"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/courseware/_bulk_purchase_button.html:17
+msgid ""
+"You can purchase enrollment codes for this course to distribute to your "
+"team"
+msgstr "באפשרותך לרכוש קודי רישום עבור קורס זה כדי להפיץ לצוות שלך"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/courseware/_bulk_purchase_button.html:19
+#, fuzzy
+msgid "Purchase for a Group"
+msgstr "האם ברצונך לרכוש קורס זה עבור קבוצה?"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/courseware/_bulk_purchase_button.html:22
+msgid ""
+"Bulk discounts may apply for groups larger than {number}. Contact "
+"{link_start}{email}{link_end} for more information."
+msgstr ""
+
+#: edx-platform/israelxedu.gov.il/lms/templates/courseware/_bulk_purchase_button.html:31
+#, fuzzy
+msgid "Email Us"
+msgstr "דואר אלקטרוני"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/courseware/_enroll_button.html:7
+#: edx-platform/israelxedu.gov.il/lms/templates/courseware/_enroll_button_program.html:9
+msgid "Enroll Now"
+msgstr "הרשם עכשיו"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/courseware/_enroll_button.html:14
+msgid "Go to Course"
+msgstr "מעבר לקורס"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/courseware/_enroll_button.html:20
+msgid "You are enrolled in this course"
+msgstr ""
+
+#: edx-platform/israelxedu.gov.il/lms/templates/courseware/_enroll_button.html:26
+msgid "Course is full"
+msgstr ""
+
+#: edx-platform/israelxedu.gov.il/lms/templates/courseware/_enroll_button.html:31
+msgid "Enrollment in this course is by invitation only"
+msgstr ""
+
+#: edx-platform/israelxedu.gov.il/lms/templates/courseware/_enroll_button.html:36
+#: edx-platform/israelxedu.gov.il/lms/templates/courseware/_enroll_button_program.html:20
+msgid "Enrollment is Closed"
+msgstr "ההרשמה סגורה"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/courseware/_enroll_button_program.html:14
+msgid "View Course"
+msgstr ""
+
+#: edx-platform/israelxedu.gov.il/lms/templates/courseware/_enroll_button_program.html:17
+msgid "View Archived Course"
+msgstr ""
+
+#: edx-platform/israelxedu.gov.il/lms/templates/courseware/course_about.html:85
+#: edx-platform/israelxedu.gov.il/lms/templates/courseware/course_about.html:123
+#: edx-platform/israelxedu.gov.il/lms/templates/courseware/course_about.html:145
+msgid "An error occurred. Please try again later."
+msgstr "אירעה שגיאה. נסה שוב מאוחר יותר."
+
+#: edx-platform/israelxedu.gov.il/lms/templates/courseware/course_about.html:107
+msgid ""
+"The currently logged-in user account does not have permission to enroll "
+"in this course. You may need to {start_logout_tag}log out{end_tag} then "
+"try the enroll button again. Please visit the {start_help_tag}help "
+"page{end_tag} for a possible solution."
+msgstr ""
+
+#: edx-platform/israelxedu.gov.il/lms/templates/courseware/course_about.html:242
+msgid "Start Date"
+msgstr "תאריך התחלה"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/courseware/course_about.html:250
+msgid "Duration"
+msgstr "משך"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/courseware/course_about.html:255
+msgid "Price"
+msgstr "מחיר"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/courseware/course_about.html:270
+msgid "Course Description"
+msgstr "תיאור הקורס"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/courseware/course_about.html:275
+msgid "What You Will Learn"
+msgstr "מה שתלמד"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/courseware/course_about.html:286
+msgid "Instructors"
+msgstr "מנחים"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/courseware/course_about.html:354
+msgid "Enroll"
+msgstr "הירשם"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/courseware/course_about.html:359
+#, fuzzy
+msgid "enroll"
+msgstr "הירשם"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/learner_dashboard/_dashboard_navigation_courses.html:13
+#: edx-platform/israelxedu.gov.il/lms/templates/learner_dashboard/_dashboard_navigation_courses.html:20
+#: edx-platform/israelxedu.gov.il/lms/templates/learner_dashboard/_dashboard_navigation_programs.html:11
+#, fuzzy
+msgid "My Courses"
+msgstr "קורסים"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/learner_dashboard/_dashboard_navigation_courses.html:16
+#: edx-platform/israelxedu.gov.il/lms/templates/learner_dashboard/_dashboard_navigation_programs.html:14
+msgid "My Programs"
+msgstr ""
+
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/about.html:44
+msgid "Mission Statement"
+msgstr ""
+
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/contact.html:25
+msgid "Email"
+msgstr "דואר אלקטרוני"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/contact.html:29
+msgid "Full Name"
+msgstr "שם מלא"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/contact.html:34
+msgid "Inquiry Type"
+msgstr "סוג שאילתה"
+
+#. Translators: It is texts for inquiry type selection
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/contact.html:39
+msgid "Select"
+msgstr "בחר"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/contact.html:41
+msgid "Payments"
+msgstr "תשלומים"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/contact.html:42
+msgid "Certificates"
+msgstr "תעודות"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/contact.html:43
+msgid "Assessments"
+msgstr "הערכות"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/contact.html:44
+msgid "Videos"
+msgstr "סרטונים"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/contact.html:45
+msgid "Discussion Forums"
+msgstr "פורומים לדיון"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/contact.html:46
+msgid "Mobile Application"
+msgstr "אפליקציה לנייד"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/contact.html:47
+msgid "Other"
+msgstr "אחר"
+
+#. Translators: text is used here as a label for message
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/contact.html:53
+msgid "Message"
+msgstr "הודעה"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/contact.html:57
+msgid "Submit"
+msgstr "שלח"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/contact.html:59
+msgid "Required Fields"
+msgstr "שדות חובה"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/contact.html:79
+msgid "Thank you for your inquiry"
+msgstr "תודה על שאלתך"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/privacy.html:7
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/privacy.html:10
+#, fuzzy
+msgid "Privacy Policy"
+msgstr "שינוי מדיניות הפרטיות שלנו"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/tos.html:7
+msgid "Terms of Use"
+msgstr ""
+
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/tos.html:58
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/tos.html:83
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/tos.html:109
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/tos.html:296
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/tos.html:310
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/tos.html:321
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/tos.html:331
+#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/tos.html:352
+msgid "Back to top"
+msgstr "חזרה למעלה"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/student_account/login_and_register.html:10
+msgid "Sign in or Create Account"
+msgstr "היכנס או צור חשבון"
+
+#~ msgid "Academic Planning"
+#~ msgstr "תכנון אקדמי"
+
+#~ msgid "Registration"
+#~ msgstr "רישום"
+
+#~ msgid "Finances"
+#~ msgstr "כספים"
+
+#~ msgid "Collaboration Policy"
+#~ msgstr "מדיניות שיתוף פעולה"
+
+#~ msgid "Honor Code Pledge"
+#~ msgstr "קוד אתי ליושרה אקדמית"
+
+#~ msgid "Changing the Honor Code"
+#~ msgstr "שינוי הקוד האתי"
+
+#~ msgid "usernames and postings"
+#~ msgstr "שמות משתמשים ופרסומים"
+
+#~ msgid "consent to processing outside home country"
+#~ msgstr "הסכמה לעיבוד מחוץ למדינת המגורים"
+
+#~ msgid "personal information"
+#~ msgstr "מידע אישי"
+
+#~ msgid "information we collect and how we use it"
+#~ msgstr "מידע שאנו אוספים וכיצד אנו משתמשים בו"
+
+#~ msgid "use and disclosure to third parties"
+#~ msgstr "שימוש וחשיפה לצדדים שלישיים"
+
+#~ msgid "use for personalization and pedagogical improvementsy"
+#~ msgstr "שימוש להתאמה אישית ושיפורים פדגוגיים"
+
+#~ msgid "links to other websites"
+#~ msgstr "קישורים לאתרי אינטרנט אחרים"
+
+#~ msgid "security"
+#~ msgstr "אבטחה"
+
+#~ msgid "minors"
+#~ msgstr "קטינים"
+
+#~ msgid "privacy concerns"
+#~ msgstr "חששות בנוגע לפרטיות"
+
+#~ msgid "rules for online conduct"
+#~ msgstr "כללים בנוגע להתנהגות מקוונת"
+
+#~ msgid "prohibited content"
+#~ msgstr "תוכן אסור"
+
+#~ msgid "user accounts and authority"
+#~ msgstr "חשבונות וסמכות המשתמש"
+
+#~ msgid "your right to use content on the site"
+#~ msgstr "הזכות שלך להשתמש בתוכן שבאתר"
+
+#~ msgid "user postings"
+#~ msgstr "פרסומי המשתמש"
+
+#~ msgid "certificates of completion"
+#~ msgstr "תעודות השלמה"
+
+#~ msgid "trademarks"
+#~ msgstr "סימני מסחר"
+
+#~ msgid "digital millennium copyright act"
+#~ msgstr "חוק זכויות היוצרים של המילניום הדיגיטלי"
+
+#~ msgid "miscellaneous"
+#~ msgstr "שונות"
+
+#~ msgid "the following types of content are strictly prohibited on the site:"
+#~ msgstr "חל איסור מוחלט לפרסם את סוגי התוכן הבאים באתר:"
+
+#~ msgid "View All"
+#~ msgstr "הצג הכל"
+
+#~ msgid "More about"
+#~ msgstr "מידע נוסף"
+
+#~ msgid "Watch video"
+#~ msgstr "צפה בסרטון ווידאו"
+
+#~ msgid "All Courses"
+#~ msgstr "כל הקורסים"
+
+#~ msgid "Credentials"
+#~ msgstr "הרשאות"
+
+#~ msgid "Report unethical or harassing conduct"
+#~ msgstr "דווח על התנהגות לא אתית או מטרידה"
+
+#~ msgid "Questions about accessibility for students with disabilities"
+#~ msgstr "שאלות בנוגע לנגישות הסטודנטים בעלי המוגבלויות"
+
+#~ msgid "Links to Other Sites"
+#~ msgstr "קישורים לאתרים אחרים"
+
+#~ msgid "Governing Law and Disputes"
+#~ msgstr "החוק החל וערעורים"
+
+#~ msgid "Explore our most popular courses"
+#~ msgstr "גלה את הקורסים הפופולריים ביותר שלנו"
+
+#~ msgid "FAQ's"
+#~ msgstr "שאלות נפוצות"
+
+#~ msgid "General FAQs"
+#~ msgstr "שאלות נפוצות כלליות"
+
+#~ msgid "Blogs"
+#~ msgstr "בלוגים"
+
+#~ msgid "I am a"
+#~ msgstr "אני"
+
+#~ msgid "Learner"
+#~ msgstr "לומד"
+
+#~ msgid "Teacher"
+#~ msgstr "אחר"
+
+#~ msgid "We'll get back to you within 24 hours."
+#~ msgstr "נחזור אליך ב-24 השעות הקרובות."
+
+#~ msgid "License"
+#~ msgstr "רישיון"
+
+#~ msgid "Ownership"
+#~ msgstr "בעלות"
+
+#~ msgid "Subscription Term"
+#~ msgstr "מונח בנושא הרשמה"
+
+#~ msgid "Permitted Uses and Prohibitions"
+#~ msgstr "שימושים מותרים ואיסורים"
+
+#~ msgid "Restriction Against Transfer"
+#~ msgstr "הגבלה כנגד העברה"
+
+#~ msgid "Use Of Professional Judgment"
+#~ msgstr "שימוש בשיפוט מקצועי"
+
+#~ msgid "No Warranty"
+#~ msgstr "ללא אחריות"
+
+#~ msgid "Limitation Of Liability"
+#~ msgstr "הגבלת חבות"
+
+#~ msgid "General"
+#~ msgstr "כללי"
+
+#~ msgid "Privacy Statement"
+#~ msgstr "הצהרת פרטיות"
+
+#~ msgid "General Statement"
+#~ msgstr "הצהרה כללית"
+
+#~ msgid "Personal Information Collected and Use of Information"
+#~ msgstr "מידע אישי שנאסף ושימוש במידע"
+
+#~ msgid "Usage Information Collected and Use of Information"
+#~ msgstr "פרטי שימוש שנאספו ושימוש במידע"
+
+#~ msgid "External Links"
+#~ msgstr "קישורים חיצוניים"
+
+#~ msgid "Security Precautions"
+#~ msgstr "אזהרות אבטחה"
+
+#~ msgid "Access to the Site"
+#~ msgstr "גישה לאתר"
+
+#~ msgid "User Accounts"
+#~ msgstr "חשבונות משתמש"
+
+#~ msgid "Course Modification or Cancellation"
+#~ msgstr "שינוי או ביטול קורס"
+
+#~ msgid "License to use Site Materials"
+#~ msgstr "רישיון לשימוש בחומרים באתר"
+
+#~ msgid "Modifications to Site"
+#~ msgstr "שינויים באתר"
+
+#~ msgid "Rules for Online Conduct"
+#~ msgstr "כללים להתנהגות מקוונת"
+
+#~ msgid "Security Rules"
+#~ msgstr "כללי אבטחה"
+
+#~ msgid "Content Disclaimer"
+#~ msgstr "כתב ויתור על תוכן"
+
+#~ msgid "User Status and Statement of Accomplishment"
+#~ msgstr "סטטוס המשתמש והצהרת הישגים"
+
+#~ msgid "International Use and Consent to Processing"
+#~ msgstr "שימוש בינלאומי והסכמה לעיבוד"
+
+#~ msgid "Disclaimer of Warranties"
+#~ msgstr "כתב ויתור על אחריות"
+
+#~ msgid "Termination of Rights"
+#~ msgstr "הפסקת זכויות"
+
+#~ msgid "Consumer Notice"
+#~ msgstr "הודעת צרכן"
+
+#~ msgid "Use of Name"
+#~ msgstr "שימוש בשם"
+
+#~ msgid "Copyright Complaints"
+#~ msgstr "תלונות בנוגע לזכויות יוצרים"
+
+#~ msgid "Notices"
+#~ msgstr "הודעות"
+
+#~ msgid "Waiver"
+#~ msgstr "כתב ויתור"
+
+#~ msgid "Severability"
+#~ msgstr "דרגת חומרה"
+
+#~ msgid "Use Of The Site"
+#~ msgstr "שימוש באתר"
+
+#~ msgid "User Age and Eligibility"
+#~ msgstr "הגיל והכשירות של המשתמש"
+
+#~ msgid "Indemnification"
+#~ msgstr "שיפוי"
+
+#~ msgid "Entire Agreement"
+#~ msgstr "ההסכם כולו"
+
+#~ msgid "Explore our courses"
+#~ msgstr "גלה את הקורסים שלנו"
+
+#~ msgid "Education"
+#~ msgstr "חינוך"
+
+#~ msgid "Research"
+#~ msgstr "מחקר"
+
+#~ msgid "Connect"
+#~ msgstr "התחבר"
+
+#~ msgid "Facebook"
+#~ msgstr "פייסבוק"
+
+#~ msgid "Instagram"
+#~ msgstr "אינסטגרם"
+
+#~ msgid "LinkedIn"
+#~ msgstr "לינקדאין"
+
+#~ msgid "Twitter"
+#~ msgstr "טוויטר"
+
+#~ msgid "News"
+#~ msgstr "חדשות"
+
+#~ msgid "YouTube"
+#~ msgstr "יוטיוב"
+

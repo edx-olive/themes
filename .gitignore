@@ -4,3 +4,5 @@ edx-platform/**/cms/**/css/*.css
 edx-platform/**/lms/**/css/*.css
 edx-platform/**/cms/**/css/discussion/*.css
 edx-platform/**/lms/**/css/discussion/*.css
+edx-platform/**/cms/**/css/bootstrap/*.css
+edx-platform/**/lms/**/css/bootstrap/*.css
