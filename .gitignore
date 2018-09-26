@@ -1,5 +1,7 @@
 .idea/
 
+*.DS_Store
+
 edx-platform/**/cms/**/css/*.css
 edx-platform/**/lms/**/css/*.css
 edx-platform/**/cms/**/css/discussion/*.css
