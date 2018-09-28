@@ -1,22 +1,23 @@
 <%page expression_filter="h"/>
 <%!
+from django.utils.translation import ugettext as _
 from openedx.core.djangoapps.site_configuration import helpers as configuration_helpers
 %>
 <%namespace name='static' file='../static_content.html'/>
 
 <header class="wrapper-header-courses">
-    <h2>Dashboard</h2>
+    <h2>${_("Dashboard")}</h2>
     <ul>
         % if configuration_helpers.get_value('SHOW_PROGRAMS_ON_DASHBOARD'):
             <li id="courses-tab" class="tab dashboard-nav-link active">
-                <a id="courses-link" href="/dashboard">My Courses</a>
+                <a id="courses-link" href="/dashboard">${_("My Courses")}</a>
             </li>
             <li id="programs-tab" class="tab dashboard-nav-link">
-                <a id="programs-link" href="/dashboard/programs">My Programs</a>
+                <a id="programs-link" href="/dashboard/programs">${_("My Programs")}</a>
             </li>
         % else:
             <li id="courses-tab" class="tab dashboard-nav-link active">
-                <span class="courses-heading">My Courses</span>
+                <span class="courses-heading">${_("My Courses")}</span>
             </li>
         % endif
     </ul>
