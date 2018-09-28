@@ -25,7 +25,6 @@
   src="https://www.facebook.com/tr?id=602311646557371&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
-
 </%block>
 
 <%block name="pagetitle">${_("Sign in or Create Account")}</%block>
@@ -43,6 +42,14 @@
             newrelic.addPageAction('xfinished');
         }
     </%static:require_module>
+    <script>
+    if (typeof jQuery != 'undefined') {
+        $('.login-register').on('register-complete', function(event) {
+            fbq('track', 'CompleteRegistration');
+            return false;
+        });
+    }
+    </script>
 </%block>
 
 <%block name="header_extras">
