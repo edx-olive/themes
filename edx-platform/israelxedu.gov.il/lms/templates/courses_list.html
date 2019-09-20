@@ -13,6 +13,11 @@
             <div class="row">
               <div class="col col-12 text-center">
                 <h2>
+                  % if homepage_overlay_html:
+                  <span class="course-list-heading">
+                    ${homepage_overlay_html | n, decode.utf8}
+                  </span>
+                  % endif
                   <span class="course-list-heading he"> קמפוס – המיזם הלאומי ללמידה דיגיטלית, מבית המשרד לשוויון חברתי</span>
                   <span class="course-list-heading ar"> كامبوس- المشروع الوطني للتعليم الرقمّي، من قبل وزارة المساواة الإجتماعية</span>
                   <span class="course-list-heading en"> Campus – Israel’s national digital learning initiative, from the Ministry for Social Equality</span>
