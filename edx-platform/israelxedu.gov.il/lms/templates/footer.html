@@ -33,7 +33,11 @@ from django.utils.translation import ugettext as _
               ## Translators: This message is used as a label for a list of links that navigate to support pages on the website.
               ${_("Support")}
           </li>
-          <li><a href="/tos">${_("Terms of Service")}</a></li>
+          <li>
+            <a class="he" href="${marketing_link('TOS')}">${_("Terms of Service")}</a>
+            <a class="en" href="${marketing_link('ROOT')}/en/term-of-use">${_("Terms of Service")}</a>
+            <a class="ar" href="${marketing_link('ROOT')}/ar/شروط-الاستخدام/">${_("Terms of Service")}</a>
+          </li>
         </ul>
       </div>
       <div class="col col-4 open-edx-logo">
