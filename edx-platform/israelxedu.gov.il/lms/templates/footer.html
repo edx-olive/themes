@@ -20,7 +20,11 @@ from django.utils.translation import ugettext as _
               ${_("About")}
           </li>
           <li><a href="/about">${_("About this Site")}</a></li>
-          <li><a href="/contact">${_("Contact Us")}</a></li>
+          <li>
+            <a class="he" href="${marketing_link('CONTACT')}">${_("Contact Us")}</a>
+            <a class="en" href="${marketing_link('ROOT')}/en/contact">${_("Contact Us")}</a>
+            <a class="ar" href="${marketing_link('ROOT')}/ar/צור-קשר/">${_("Contact Us")}</a>
+          </li>
         </ul>
       </div>
       <div class="col col-4">
