@@ -1,9 +1,29 @@
 ## mako
 <%namespace name='static' file='static_content.html'/>
 <%!
+from urlparse import urljoin
 from django.utils.translation import ugettext as _
-from edxmako.shortcuts import marketing_link
 %>
+
+<%def name="marketing_contact(language)"><%
+    marketing_root = 'https://campus.gov.il'
+    if language == 'he':
+        return urljoin(marketing_root, 'contact')
+    if language == 'en':
+        return urljoin(marketing_root, 'en', 'contact')
+    if language == 'ar':
+        return urljoin(marketing_root, 'ar', 'צור-קשר')
+%></%def>
+
+<%def name="marketing_tos(language)"><%
+    marketing_root = 'https://campus.gov.il'
+    if language == 'he':
+        return urljoin(marketing_root, 'term-of-use')
+    if language == 'en':
+        return urljoin(marketing_root, 'en', 'term-of-use')
+    if language == 'ar':
+        return urljoin(marketing_root, 'ar', 'شروط-الاستخدام')
+%></%def>
 
 <section class="footer-main">
 <div class="grid-manual grid-container">
@@ -22,9 +42,9 @@ from edxmako.shortcuts import marketing_link
           </li>
           <li><a href="/about">${_("About this Site")}</a></li>
           <li>
-            <a class="he" href="${marketing_link('CONTACT')}">${_("Contact Us")}</a>
-            <a class="en" href="${marketing_link('ROOT')}/en/contact">${_("Contact Us")}</a>
-            <a class="ar" href="${marketing_link('ROOT')}/ar/צור-קשר/">${_("Contact Us")}</a>
+            <a class="he" href="${marketing_contact('he')}">${_("Contact Us")}</a>
+            <a class="en" href="${marketing_contact('en')}">${_("Contact Us")}</a>
+            <a class="ar" href="${marketing_contact('ar')}">${_("Contact Us")}</a>
           </li>
         </ul>
       </div>
@@ -35,9 +55,9 @@ from edxmako.shortcuts import marketing_link
               ${_("Support")}
           </li>
           <li>
-            <a class="he" href="${marketing_link('TOS')}">${_("Terms of Service")}</a>
-            <a class="en" href="${marketing_link('ROOT')}/en/term-of-use">${_("Terms of Service")}</a>
-            <a class="ar" href="${marketing_link('ROOT')}/ar/شروط-الاستخدام/">${_("Terms of Service")}</a>
+            <a class="he" href="${marketing_tos('he')}">${_("Terms of Service")}</a>
+            <a class="en" href="${marketing_tos('en')}">${_("Terms of Service")}</a>
+            <a class="ar" href="${marketing_tos('ar')}">${_("Terms of Service")}</a>
           </li>
         </ul>
       </div>
