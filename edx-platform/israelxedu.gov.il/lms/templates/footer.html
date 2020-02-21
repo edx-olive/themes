@@ -19,8 +19,16 @@ from django.utils.translation import ugettext as _
               ## Translators: This message is used as a label for a list of links that navigate to about pages on the website.
               ${_("About")}
           </li>
-          <li><a href="/about">${_("About this Site")}</a></li>
-          <li><a href="/contact">${_("Contact Us")}</a></li>
+          <li>
+            <a class="he" href="https://campus.gov.il/about/">${_("About this Site")}</a>
+            <a class="en" href="https://campus.gov.il/en/about/">${_("About this Site")}</a>
+            <a class="ar" href="https://campus.gov.il/ar/about/">${_("About this Site")}</a>
+          </li>
+          <li>
+            <a class="he" href="https://campus.gov.il/contact/">${_("Contact Us")}</a>
+            <a class="en" href="https://campus.gov.il/en/contact/">${_("Contact Us")}</a>
+            <a class="ar" href="https://campus.gov.il/ar/contact/">${_("Contact Us")}</a>
+          </li>
         </ul>
       </div>
       <div class="col col-4">
@@ -29,7 +37,11 @@ from django.utils.translation import ugettext as _
               ## Translators: This message is used as a label for a list of links that navigate to support pages on the website.
               ${_("Support")}
           </li>
-          <li><a href="/tos">${_("Terms of Service")}</a></li>
+          <li>
+            <a class="he" href="https://campus.gov.il/term-of-use/">${_("Terms of Service")}</a>
+            <a class="en" href="https://campus.gov.il/en/term-of-use/">${_("Terms of Service")}</a>
+            <a class="ar" href="https://campus.gov.il/ar/term-of-use/">${_("Terms of Service")}</a>
+          </li>
         </ul>
       </div>
       <div class="col col-4 open-edx-logo">
@@ -45,3 +57,7 @@ from django.utils.translation import ugettext as _
   </div>
 </div>
 </section>
+
+<script type="text/javascript">
+    $(".${LANGUAGE_CODE}").css('display', 'block');
+</script>
