@@ -3047,3 +3047,17 @@ div.form-field:focus-within {
 #register-goals {
     height: 80px;
 }
+
+// Translations
+
+.xmodule_display.xmodule_CapaModule {
+  div.problem {
+    div {
+      p.answer {
+        &::before {
+          content: "תשובה: ";
+        }
+      }
+    }
+  }
+}
