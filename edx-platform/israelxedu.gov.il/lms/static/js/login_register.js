@@ -78,4 +78,14 @@ $(function() {
         toggleCityWidget();
     })
 
+    // Google analytics push events
+    $("button.login-oa2-facebook").click(function(event) {
+        dataLayer.push({'event': 'registration', 'type':'facebook'});
+    });
+    $("button.login-oa2-google-oauth2").click(function(event) {
+        dataLayer.push({'event': 'registration', 'type':'google'});
+    });
+    $("button.login-saml-moe-edu-idm").click(function(event) {
+        dataLayer.push({'event': 'sign_up', 'type':'min_educ'});
+    });
 });
