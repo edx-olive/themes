@@ -78,4 +78,30 @@ $(function() {
         toggleCityWidget();
     })
 
+    // Google analytics push events
+    $("button.login-oa2-facebook").click(function(event) {
+        dataLayer.push({'event': 'facebook_login', 'type':'facebook'});
+    });
+    $("button.login-oa2-google-oauth2").click(function(event) {
+        dataLayer.push({'event': 'google_login', 'type':'google'});
+    });
+    $("button.login-saml-moe-edu-idm").click(function(event) {
+        dataLayer.push({'event': 'mid_educ_login', 'type':'min_educ'});
+    });
+    $("button.login-button").click(function(event) {
+        dataLayer.push({'event': 'email_login', 'type':'email'});
+    });
+
+    $("button.register-oa2-facebook").click(function(event) {
+        dataLayer.push({'event': 'facebook_registration', 'type':'facebook'});
+    });
+    $("button.register-oa2-google-oauth2").click(function(event) {
+        dataLayer.push({'event': 'google_registration', 'type':'google'});
+    });
+    $("button.register-saml-moe-edu-idm").click(function(event) {
+        dataLayer.push({'event': 'mid_educ_registration', 'type':'min_educ'});
+    });
+    $("button.register-button").click(function(event) {
+        dataLayer.push({'event': 'email_registration', 'type':'email'});
+    });
 });

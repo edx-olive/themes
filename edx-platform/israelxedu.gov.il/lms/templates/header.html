@@ -9,6 +9,11 @@ from openedx.core.djangoapps.user_api.accounts.image_helpers import get_profile_
 from openedx.core.djangoapps.site_configuration import helpers as configuration_helpers
 %>
 
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MS8JL77"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 % if configuration_helpers.get_value('ENABLE_UNSUPPORTED_BROWSER_ALERT', settings.FEATURES.get('ENABLE_UNSUPPORTED_BROWSER_ALERT', True)):
   <script>
   var $buoop = {notify:${configuration_helpers.get_value('UNSUPPORTED_BROWSER_ALERT_VERSIONS', settings.FEATURES.get('UNSUPPORTED_BROWSER_ALERT_VERSIONS', "{i:10,f:-3,o:-3,s:-3,c:-3}"))|h},
